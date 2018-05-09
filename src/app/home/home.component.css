@@ -1,0 +1,238 @@
+/* @font-face {
+    font-family: OpenSansHebrew;
+    src: url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+} */
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+.bckg-img{
+    background: url(../../assets/Images/backgroung.png) center center no-repeat;
+    max-width:100%; 
+    background-size:100% 100%;
+    height:100vh;
+    min-height:100vh;
+    text-align: center
+}
+.btn-login{
+    /* font-family: 'Open Sans Hebrew'; */
+    border-radius: 5px;
+    background-color:  #bf8ec0;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.12);
+    /* width: 320px;
+    height: 70px; */
+    width: 16.666666666666668vw;
+    height: 3.6458333333333335vw;
+    color:  #ffffff;
+    /* font-size: 29.18px; */
+    font-size: 1.5104166666666667vw;
+    font-weight: 700;
+    /* line-height: 24.376px; */
+    line-height: 1.25vw;
+    text-align: center;
+    transform: scaleX(1.0096);
+    margin-bottom: 5px;
+}
+.btn-login:hover{
+    background-color:  #875b88;
+    
+}
+
+.div-sub-width{
+    width: 25.104166666666668vw !important;
+    text-align: center;
+    margin: auto !important;
+}
+.input{
+/* font-family: 'Open Sans Hebrew'; */
+    color: black;
+    /* font-size: 20.82px; */
+    font-size: 1.0416666666666667vw;
+    font-weight: 300;
+    /* line-height: 32.396px; */
+    line-height: 1.6666666666666667vw;
+    text-align: right;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: #959595;
+    border-bottom-width: 1px;
+    background-color:  #E4E4E4;
+    width: 100%;
+    padding-bottom: 7px;
+    color:  #969696 !important;
+}
+input:focus{
+    outline:none !important;
+}
+.forgot-pass{
+    /* font-family: 'Open Sans Hebrew';
+    font-family: OpenSansHebrew; */
+    color:  #969696;
+    /* font-size: 17.51px; */
+    font-size: 0.8854166666666667vw;
+    font-weight: 300;
+    /* line-height: 32.396px; */
+    line-height: 1.6666666666666667vw;
+    text-decoration: underline;
+    text-align: left;
+    transform: scaleY(1.0002);
+}
+.forgot-pass-div{
+    margin-bottom: 2vw;
+    margin-top: -1vw;
+    text-align: left;
+}
+.unregistered{
+    /* font-family: OpenSansHebrew; */
+    color:  #969696;
+    /* font-size: 17.51px; */
+    font-size:0.8854166666666667vw;
+    font-weight: 300;
+    /* line-height: 32.396px; */
+    line-height:1.6666666666666667vw;
+    text-align: center;
+    transform: scaleY(1.0002);
+}
+.form-div{
+    text-align: center;
+    border-radius: 50%;
+    background-color:  rgba(117, 96, 96, 0.12);
+    /* width: 1069px;
+    height: 1015px; */
+    width: 55.677083333333336vw;
+    height: 52.864583333333336vw;
+    text-align: center;
+    position: absolute;
+    /* margin-top: -50px; */
+    margin-top: -1.6vw;
+    /* margin-right: 20%; */
+    margin-left: 22%;
+}
+.next-div{
+    text-align: center;
+    border-radius: 50%;
+    background-color:  #E4E4E4;
+    /* width: 854px;
+    height: 854px; */
+    width: 44.47916666666667vw;
+    height: 44.47916666666667vw;
+    margin-top: 13% !important;
+    padding: 3.541666666666667vw 6% 0px 6%;
+    margin: auto;
+
+}
+.href{
+    text-decoration: underline;
+    color:#42C2D1;
+    font-weight: bold;
+}
+.text{
+    /* font-family: OpenSansHebrew; */
+    color:  #545454;
+    font-size:1.8229166666666667vw;
+    /* font-size: 35.49px; */
+    font-weight: 300;
+    line-height: 1.25vw;
+    /* line-height: 24.376px; */
+    text-align: center;
+    transform: scaleY(1.0002);
+}
+.text-line{
+    color: #545454 !important;
+    /* margin-top: 17px; */
+    margin-top: 0.8854166666666667vw;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px  #E4E4E4 inset;
+}
+.input-margin{
+    margin-bottom:2vw;/*check*/
+}
+.circle-a{
+    border-radius: 50%;
+    background-color:  rgba(117, 96, 96, 0.12);
+    /* width: 427px;
+    height: 427px; */
+    width: 22.239583333333336vw;
+    height: 22.239583333333336vw;
+    position: relative;
+    top: 7.520833vw;
+    left: 8.5vw;
+}
+.circle-b{
+    border-radius: 50%;
+    background-color:  rgba(117, 96, 96, 0.12);
+    width:11.197916666666668vw;
+    height:11.197916666666668vw;
+     /* width: 215px;
+    height: 215px; */
+    position: relative;
+    top: 20.5vw;
+    left: 12.145833vw;
+    /* top: 350px;
+    left: 22px; */
+}
+.circle-c{
+    border-radius: 50%;
+    background-color:  rgba(117, 96, 96, 0.12);
+    position: relative;
+    width: 16.614583333333336vw;
+    height: 16.614583333333336vw;
+    top: -29.25vw;
+    left: 66.7vw;
+    /* width: 319px;
+    height: 319px;*/
+}
+ .circle-d{
+    border-radius: 50%;
+    background-color:  rgba(117, 96, 96, 0.12);
+    position: relative;
+    width: 11.197916666666668vw;
+    height: 11.197916666666668vw;
+    top: -22.4375vw;
+    left: 84.708333vw;
+    /* width: 215px;
+    height: 215px;
+    top:-450px;
+    left:1300px; */
+}
+.circle-e{
+    border-radius: 50%;
+    background-color: rgba(117, 96, 96, 0.12);
+    position: relative;
+    width: 16.458333vw;
+    height: 22.239583vw;
+    top: -28.520833vw;
+    left: 91.708333vw;
+}
+.logo{
+    width:19.270833333333336vw;
+    height: 11.927083333333334vw;
+}
+
+.text-red{
+    color: red !important;
+}
+.err-div{  
+    color: red !important;
+    text-align: left !important;
+}
+.top-text-line{
+    background-color:  #545454;
+    /* width: 146px; */
+    width: 7.604166666666667vw;
+    height: 1px;
+    margin: auto;
+    margin-top: 2.5vw !important;
+    margin-bottom: 1.3vw !important;
+    /* margin-bottom: 20px !important; */
+}
+.bottom-text-line{
+    background-color:  #545454;
+    /* width: 54px; */
+    width: 2.8125vw;
+    height: 1px;
+    margin: auto;
+    margin-bottom: 2vw !important;
+}
+small{
+    font-size: 0.8854166666666667vw !important;
+}

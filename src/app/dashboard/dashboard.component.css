@@ -1,0 +1,25 @@
+.btn-login{
+    border-radius: 5px;
+    background-color:  #bf8ec0;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.12);
+    /* width: 320px;
+    height: 70px; */
+    width: 25vw;
+    height: 5.46875vw;
+    /* font-family: 'Open Sans Hebrew'; */
+    color:  #ffffff;
+    /* font-size: 29.18px; */
+    font-size: 2.265625vw;
+    font-weight: 700;
+    /* line-height: 24.376px; */
+    line-height: 1.875vw;
+    text-align: center;
+    transform: scaleX(1.0096);
+}
+.margin-top{
+    margin-top: 4vw
+}
+.logo{
+    width:25vw;
+    height: 17vw;
+}

@@ -1,0 +1,57 @@
+<div class="bckg-img">
+  <div class="form-div">
+    <div class="next-div">
+      <img class="logo" src="../../assets/Images/logo.png" alt="">
+      <!-- <br> -->
+      <!-- <p class="text-line margin-top-text">_________________________</p> -->
+   
+      <div class="top-text-line"></div>
+      <p >
+        <span class="text">כניסה למערכת</span>
+      </p>
+      <div class="bottom-text-line"></div>
+      <form (ngSubmit)="onSubmit(loginForm)" #loginForm="ngForm">
+        <div class="div-sub-width">
+        <div class="form-group input-margin">
+          <input required autocomplete="off" type="email" 
+          pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" 
+          ngModel class=" input" #email="ngModel"
+           placeholder=":כתובת מייל" name="email">
+          <div *ngIf="email.invalid && (email.touched ||email.dirty || loginForm.submitted)" class="err-div">
+            <small *ngIf="email?.errors.required">!חובה למלא שדה זה</small>
+            <small *ngIf="email?.errors.pattern">!כתובת מייל לא תקנית</small>
+          </div>
+        </div>
+        <div class="form-group">
+          <input autocomplete="off" type="password" ngModel #password="ngModel" class="input" 
+          placeholder=":סיסמה" name="password" required>
+          <div *ngIf="password.invalid && (password.touched || loginForm.submitted)" class="err-div">
+            <small *ngIf="password?.errors.required">!חובה למלא שדה זה</small>
+          </div>
+        </div>
+        <div class="forgot-pass-div">
+          <a href="">
+            <p class="forgot-pass">שכחתי סיסמה</p>
+          </a>
+        </div>
+        <div class="justify-content-center">
+          <button [disabled]="loading" type="submit" class="btn btn-login">
+            <img id="loading" *ngIf="loading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA=="
+            /> כניסה
+          </button>
+          <p class="unregistered">
+            <span>עדיין לא רשום? </span>
+            <a class="href" href="">הרשם עכשיו</a>
+          </p>
+          <small class="text-red">{{errMssg}}</small>
+        </div>
+      </div>
+      </form>
+    </div>
+  </div>
+  <div class="circle-a"></div>
+  <div class="circle-b"></div>
+  <div class="circle-c"></div>
+  <div class="circle-d"></div>
+  <div class="circle-e"></div>
+</div>
